@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.navbar{
+    height: 30px;
+    background-color: green;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 70px;
+    padding: 18px;
+}
+
+a{
+    text-decoration-line: none;
+    font-family: lucida handwriting;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+#eat{
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.main-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;   
+    flex-wrap: wrap;
+}
+
+.scores{
+    color: rgb(15, 190, 15);
+}
+
+.first-div{
+    width: 300px;
+    height: 150px;
+    border: 2px solid rgb(175, 164, 164);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.first-div:hover{
+    border: 2px dashed green ;
+}
+.blank-div{
+    background-color: rgb(85, 18, 60);
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.blank-div1{
+    background-color: aqua;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.blank-div2{
+    background-color: rgb(154, 187, 35);
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.blank-div3{
+    background-color: rgb(187, 108, 52);
+    height: 80px;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: firebrick;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    font-size: 18px;
+}
+footer:hover{
+    background-color: dimgrey;
+}
